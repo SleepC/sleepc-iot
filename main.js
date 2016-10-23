@@ -11,13 +11,13 @@ var lcd = require('jsupm_i2clcd');
 var constants = require('./constants');
 var Temperature = require('./devices/temperature');
 var Noise = require('./devices/noise');
-//var AirQuality = require('./devices/airQuality');
+var AirQuality = require('./devices/airQuality');
 
 var display = new lcd.Jhd1313m1(constants.portOffset + 0, 0x3E, 0x62);
 var devices = [
   //new Temperature(),
   //new Noise(),
-  //new AirQuality()
+  new AirQuality()
 ];
 
 init();
