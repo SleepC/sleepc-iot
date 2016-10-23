@@ -10,10 +10,14 @@ var lcd = require('jsupm_i2clcd');
 
 var constants = require('./constants');
 var Temperature = require('./devices/temperature');
+var Noise = require('./devices/noise');
+//var AirQuality = require('./devices/airQuality');
 
 var display = new lcd.Jhd1313m1(constants.portOffset + 0, 0x3E, 0x62);
 var devices = [
-  new Temperature()
+  //new Temperature(),
+  //new Noise(),
+  //new AirQuality()
 ];
 
 init();
@@ -40,4 +44,10 @@ function reportSensorData(name, data) {
 }
 
 function init() {
+  display.setColor(255, 0, 0);
+  display.setCursor(0,0);
+  display.write('Please wait');
+  display.setCursor(1, 0);
+  display.write('Starting sensors');
+  display.setColor(0, 255, 0);
 }
