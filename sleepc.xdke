@@ -35,8 +35,8 @@
         "name": "icon.png"
       },
       "main.js": {
-        "previousModTime": 1477232247000,
-        "modified": 1477232247000,
+        "previousModTime": 1477253396000,
+        "modified": 1477253396000,
         "seen": true,
         "name": "main.js"
       },
@@ -53,8 +53,8 @@
         "name": "sleepc.xdk"
       },
       "sleepc.xdke": {
-        "previousModTime": 1477232205000,
-        "modified": 1477232205000,
+        "previousModTime": 1477254469000,
+        "modified": 1477254469000,
         "seen": true,
         "name": "sleepc.xdke"
       },
@@ -65,43 +65,42 @@
         "name": "xdk/project-info.json"
       },
       "constants.js": {
-        "previousModTime": 1477232124000,
-        "modified": 1477232124000,
+        "previousModTime": 1477251927000,
+        "modified": 1477251927000,
         "seen": true,
         "name": "constants.js"
       },
       "devices/temperature.js": {
-        "previousModTime": 1477232150000,
-        "modified": 1477232150000,
+        "previousModTime": 1477248857000,
+        "modified": 1477248857000,
         "seen": true,
         "name": "devices/temperature.js"
+      },
+      "devices/airQuality.js": {
+        "previousModTime": 1477248428000,
+        "modified": 1477248428000,
+        "seen": true,
+        "name": "devices/airQuality.js"
+      },
+      "devices/motion.js": {
+        "previousModTime": 1477251008000,
+        "modified": 1477251008000,
+        "seen": true,
+        "name": "devices/motion.js"
+      },
+      "devices/noise.js": {
+        "previousModTime": 1477239422000,
+        "modified": 1477239422000,
+        "seen": true,
+        "name": "devices/noise.js"
+      },
+      "devices/humanDetector.js": {
+        "previousModTime": 1477252870000,
+        "modified": 1477252870000,
+        "seen": true,
+        "name": "devices/humanDetector.js"
       }
     },
-    "boardFileStatus": {
-      "LICENSE": {
-        "previousModTime": 1477232250656
-      },
-      "README.md": {
-        "previousModTime": 1477232250656
-      },
-      "icon.png": {
-        "previousModTime": 1477232250656
-      },
-      "main.js": {
-        "previousModTime": 1477232250656
-      },
-      "package.json": {
-        "previousModTime": 1477232250656
-      },
-      "xdk/project-info.json": {
-        "previousModTime": 1477232250656
-      },
-      "constants.js": {
-        "previousModTime": 1477232250656
-      },
-      "devices/temperature.js": {
-        "previousModTime": 1477232250656
-      }
-    }
+    "boardFileStatus": {}
   }
 }

@@ -16,7 +16,9 @@ function AirQuality() {
 
   function getData() {
     var value = that.sensor.getSample();
-    return Math.round(value) + ': ' + airQuality(value);
+    return {
+      airQuality: Math.round(value)
+    };
   }
 
   return {

@@ -1,8 +1,13 @@
 var constants = {
   portOffset: 512,
-  temperaturePort: 0,
-  noisePort: 1,
-  airQualityPort: 2
+  temperatureAmbientPort: 0,
+  temperatureObjectPort: 1,
+  temperatureObjectButtonPort: 3,
+  airQualityPort: 2,
+  noisePort: 3,
+  motionPort: 4,
+
+  reportinBatchSize: 15
 };
 
 module.exports = constants;

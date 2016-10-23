@@ -13,9 +13,12 @@ function Noise() {
   function getData() {
     var buffer = new upmMicrophone.uint16Array(128);
     var len = that.sensor.getSampledWindow(2, 128, buffer);
+    var threshold = 0
     if (len) {
-      var threshold = that.sensor.findThreshold(threshContext, 30, buffer, len);
-      return threshold;
+      threshold = that.sensor.findThreshold(threshContext, 30, buffer, len);
+    } 
+    return {
+      noise: threshold
     }
   }
 
