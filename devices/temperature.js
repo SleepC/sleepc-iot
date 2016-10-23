@@ -1,14 +1,14 @@
 var constants = require('../constants');
-var groveSensor = require('jsupm_grove');
+var GroveTemp = require('jsupm_grove').GroveTemp;
 
 function Temperature() {
   var that = this;
-  that.sensor = new groveSensor.GroveTemp(constants.portOffset + constants.temperaturePort);
-  that.name = "Temperature";
+  that.sensor = new GroveTemp(constants.portOffset + constants.temperaturePort);
 
   function getData() {
     return that.sensor.value();
   }
+
   return {
     name: 'Temperature',
     getData: getData
