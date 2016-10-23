@@ -1,0 +1,74 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "currentBuildConfiguration": null,
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "editorTab": {
+    "currentEditorMode": 0
+  },
+  "iot-tab": {
+    "fileStatus": {
+      ".gitignore": {
+        "previousModTime": 1477229383000,
+        "modified": 1477229383000,
+        "seen": true,
+        "name": ".gitignore"
+      },
+      "LICENSE": {
+        "previousModTime": 1477229383000,
+        "modified": 1477229383000,
+        "seen": true,
+        "name": "LICENSE"
+      },
+      "README.md": {
+        "previousModTime": 1477229383000,
+        "modified": 1477229383000,
+        "seen": true,
+        "name": "README.md"
+      },
+      "icon.png": {
+        "previousModTime": 1477229409000,
+        "modified": 1477229409000,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "main.js": {
+        "previousModTime": 1477229590000,
+        "modified": 1477229590000,
+        "seen": true,
+        "name": "main.js"
+      },
+      "package.json": {
+        "previousModTime": 1477229409000,
+        "modified": 1477229409000,
+        "seen": true,
+        "name": "package.json"
+      },
+      "sleepc.xdk": {
+        "previousModTime": 1477229415000,
+        "modified": 1477229415000,
+        "seen": true,
+        "name": "sleepc.xdk"
+      },
+      "sleepc.xdke": {
+        "previousModTime": 1477229582000,
+        "modified": 1477229582000,
+        "seen": true,
+        "name": "sleepc.xdke"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1477229414000,
+        "modified": 1477229414000,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      }
+    },
+    "boardFileStatus": {
+      "main.js": {
+        "previousModTime": 1477229591951
+      }
+    }
+  }
+}
