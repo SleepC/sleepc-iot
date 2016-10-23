@@ -35,8 +35,8 @@
         "name": "icon.png"
       },
       "main.js": {
-        "previousModTime": 1477229590000,
-        "modified": 1477229590000,
+        "previousModTime": 1477232247000,
+        "modified": 1477232247000,
         "seen": true,
         "name": "main.js"
       },
@@ -53,8 +53,8 @@
         "name": "sleepc.xdk"
       },
       "sleepc.xdke": {
-        "previousModTime": 1477229582000,
-        "modified": 1477229582000,
+        "previousModTime": 1477232205000,
+        "modified": 1477232205000,
         "seen": true,
         "name": "sleepc.xdke"
       },
@@ -63,11 +63,44 @@
         "modified": 1477229414000,
         "seen": true,
         "name": "xdk/project-info.json"
+      },
+      "constants.js": {
+        "previousModTime": 1477232124000,
+        "modified": 1477232124000,
+        "seen": true,
+        "name": "constants.js"
+      },
+      "devices/temperature.js": {
+        "previousModTime": 1477232150000,
+        "modified": 1477232150000,
+        "seen": true,
+        "name": "devices/temperature.js"
       }
     },
     "boardFileStatus": {
+      "LICENSE": {
+        "previousModTime": 1477232250656
+      },
+      "README.md": {
+        "previousModTime": 1477232250656
+      },
+      "icon.png": {
+        "previousModTime": 1477232250656
+      },
       "main.js": {
-        "previousModTime": 1477229591951
+        "previousModTime": 1477232250656
+      },
+      "package.json": {
+        "previousModTime": 1477232250656
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1477232250656
+      },
+      "constants.js": {
+        "previousModTime": 1477232250656
+      },
+      "devices/temperature.js": {
+        "previousModTime": 1477232250656
       }
     }
   }
