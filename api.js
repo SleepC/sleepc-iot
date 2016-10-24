@@ -1,12 +1,12 @@
-
 var http = require('http');
+var constants = require('./constants');
 
 function sendReport(report) {
   return new Promise(function(resolve, reject){
     var options = {
-      hostname: 'u10.ngrok.io',
+      hostname: constants.apiHost,
       port: 80,
-      path: '/api/report',
+      path: constants.apiPath,
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
